@@ -1,6 +1,7 @@
 {
   "name": "ember-cli-jsmockito",
   "version": "0.0.0",
+  "description": "Javascript mocking library for unit testing ember-cli code",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -10,12 +11,25 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "https://github.com/stefanpenner/ember-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackmatt2/ember-cli-jsmockito.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Jack Matthews",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackmatt2/ember-cli-jsmockito/issues"
+  },
+  "homepage": "https://github.com/jackmatt2/ember-cli-jsmockito",
+  "maintainers": [
+    {
+      "name": "Jack Matthews",
+      "email": "jackmatt2@gmail.com"
+    }
+  ],
   "devDependencies": {
     "body-parser": "^1.2.0",
     "broccoli-asset-rev": "0.3.1",
@@ -31,7 +45,9 @@
     "glob": "^4.0.5"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember.js", 
+    "ember-cli"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
