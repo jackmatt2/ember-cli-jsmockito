@@ -1,25 +1,21 @@
 # Ember-cli-jsmockito
 
-This README outlines the details of collaborating on this Ember addon.
+(Note this is not yet ready, IN PROGRESS!!!)
 
-## Installation
+Javascript Mocking Library for ember-cli
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+## Installing
+```
+npm install ember-cli-jsmockito
+```
+## Mocking Objects
 
-## Running
+## Mocking Functions
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+## Mocking the ember-data store
+TODO
 
-## Running Tests
+## Mocking models
+TODO
 
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+For more information on using jsmockito, visit [http://jsmockito.org/api/1.0.4/](http://jsmockito.org/api/1.0.4/).
