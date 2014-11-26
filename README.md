@@ -6,7 +6,7 @@ Javascript Mocking Library for ember-cli
 
 ## Installing
 ```
-npm install ember-cli-jsmockito
+npm install --save-dev ember-cli-jsmockito
 ```
 ## Mocking Objects
 
