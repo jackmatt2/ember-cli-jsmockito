@@ -2,6 +2,7 @@
 
 # eclipse
 .project
+.settings/
 
 # compiled output
 /dist
