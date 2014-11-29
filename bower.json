@@ -15,6 +15,7 @@
     "qunit": "~1.15.0"
   },
   "devDependencies": {
-    "jshamcrest": "~0.6.8"
+    "jshamcrest": "~0.6.8",
+    "jsmockito": "~1.0.4"
   }
 }
