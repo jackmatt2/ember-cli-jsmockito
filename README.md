@@ -2,11 +2,11 @@
 
 (Note this is not yet ready, IN PROGRESS!!!)
 
-Javascript Mocking Library for testing ember-cli application
+Javascript Mocking Library for testing ember-cli applications
 
 ## Installing
 ```
-npm install --save-dev ember-cli-jsmockito
+npm install ember-cli-jsmockito --save-dev
 ```
 
 Add the following to `tests/.jshintrc`
@@ -42,7 +42,7 @@ var controllerMock = mock(Ember.Controller);
 ```javascript
 var mockedFunc = mockFunction();
 ```
-### Mock return values
+### Setup expectations on your mocks
 ```javascript
 var employeeMock = mock(DS.Model);
 when(employeeMock).get('name').thenReturn('jack');
