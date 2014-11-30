@@ -17,7 +17,9 @@ module.exports = {
   },
   contentFor: function(type, config) {
 	  
-	  if(type === 'test-body') { 
+console.log(type);
+
+	  if(type === 'test-body-footer') { 
 		  var setupJsMockito = '\
 			<script language="javascript">\n\
 			  $( document ).ready(function() {\n\
@@ -25,6 +27,8 @@ module.exports = {
 			  });\n\
 		    </script>\n\
 		  ';
+		  
+		  console.log(setupJsMockito);
 		    
 		  return setupJsMockito;
 	  }
