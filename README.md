@@ -11,15 +11,16 @@ npm install --save-dev ember-cli-jsmockito
 
 Add the following to `tests/.jshintrc`
 
+```
   "predef": [
     ...
     "mock",
     "when",
     "verify",
     "mockFunction",
-    "spy",
-    
+    "spy"
   ],
+  ```
 
 ## Features
 
@@ -42,9 +43,11 @@ var controllerMock = mock(Ember.Controller);
 var mockedFunc = mockFunction();
 ```
 ### Mock return values
+```javascript
 var employeeMock = mock(DS.Model);
 when(employeeMock).get('name').thenReturn('jack');
 equal('jack',employeeMock.get('name'));
+```
 
 ### Verify function execution
 ```javascript
