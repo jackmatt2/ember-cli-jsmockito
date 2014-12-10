@@ -1,3 +1,4 @@
+/* jshint node: true */
 'use strict';
 
 module.exports = {
@@ -17,8 +18,6 @@ module.exports = {
   },
   contentFor: function(type, config) {
 	  
-console.log(type);
-
 	  if(type === 'test-body-footer') { 
 		  var setupJsMockito = '\
 			<script language="javascript">\n\
@@ -27,8 +26,6 @@ console.log(type);
 			  });\n\
 		    </script>\n\
 		  ';
-		  
-		  console.log(setupJsMockito);
 		    
 		  return setupJsMockito;
 	  }
