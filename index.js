@@ -21,9 +21,8 @@ module.exports = {
 	  if(type === 'test-body-footer') { 
 		  var setupJsMockito = '\
 			<script language="javascript">\n\
-			  $( document ).ready(function() {\n\
+			      JsHamcrest.Integration.QUnit();\n\
 			      JsMockito.Integration.QUnit();\n\
-			  });\n\
 		    </script>\n\
 		  ';
 		    

@@ -2,6 +2,8 @@
 
 Javascript Mocking Library for testing ember-cli applications
 
+IN PROGRESS ---- NOT YET READY!!
+
 ## Requirements 
 
 ember-cli >= 0.1.4
