@@ -58,5 +58,5 @@ mockedFunc('hello world');
 verify(mockedFunc)('hello world');
 ```
 
-Visit [JsMockito](http://jsmockito.org/api/1.0.4/) for more information about mocking.
-Visit [JsHamcrest](http://danielmartins.ninja/jshamcrest) for more information about the matching.
+* Visit [JsMockito](http://jsmockito.org/api/1.0.4/) for more information about mocking.
+* Visit [JsHamcrest](http://danielmartins.ninja/jshamcrest) for more information about the matching.
