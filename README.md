@@ -20,7 +20,14 @@ Add the following to `tests/.jshintrc`
     "when",
     "verify",
     "mockFunction",
-    "spy"
+    "spy",
+    "empty",
+    "emailAddress",
+    "greaterThan",
+    "lessThan",
+    "even",
+    "everyItem",
+    "hasSize"
   ],
   ```
 
