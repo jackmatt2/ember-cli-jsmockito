@@ -1,8 +1,10 @@
 # Ember-cli-jsmockito
 
-(Note this is not yet ready, IN PROGRESS!!!)
-
 Javascript Mocking Library for testing ember-cli applications
+
+## Requirements 
+
+ember-cli >= 0.1.4
 
 ## Installing
 ```
@@ -56,14 +58,5 @@ mockedFunc('hello world');
 verify(mockedFunc)('hello world');
 ```
 
-## Mocking Objects
-
-## Mocking Functions
-
-## Mocking the ember-data store
-TODO
-
-## Mocking models
-TODO
-
-For more information on using jsmockito, visit [http://jsmockito.org/api/1.0.4/](http://jsmockito.org/api/1.0.4/).
+Visit [JsMockito](http://jsmockito.org/api/1.0.4/](http://jsmockito.org/api/1.0.4/) for more information about mocking.
+Visit [JsHamcrest](http://danielmartins.ninja/jshamcrest) for more information about the matching.
