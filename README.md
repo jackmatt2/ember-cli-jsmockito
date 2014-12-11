@@ -1,8 +1,6 @@
 # Ember-cli-jsmockito
 
-Javascript Mocking Library for testing ember-cli applications
-
-IN PROGRESS ---- NOT YET READY!!
+Javascript Mocking and Matching Library for unit testing ember-cli applications.
 
 ## Requirements 
 
@@ -13,11 +11,9 @@ ember-cli >= 0.1.4
 npm install ember-cli-jsmockito --save-dev
 ```
 
-Add the following to `tests/.jshintrc`
+Add the following to `tests/.jshintrc` inside the `predef` array.
 
 ```
-  "predef": [
-    ...
     "mock",
     "when",
     "verify",
@@ -31,15 +27,54 @@ Add the following to `tests/.jshintrc`
     "noMoreInteractions",
     "times",
     "once",
-    
     "empty",
-    "emailAddress",
-    "greaterThan",
-    "lessThan",
-    "even",
     "everyItem",
-    "hasSize"
-  ],
+    "hasItem",
+    "hasItems",
+    "hasSize",
+    "isIn",
+    "oneOf",
+    "allOf",
+    "anyOf",
+    "anything",
+    "both",
+    "either",
+    "equalTo",
+    "is",
+    "nil",
+    "not",
+    "raises",
+    "raisesAnything",
+    "sameAs",
+    "truth",
+    "equivalentMap",
+    "equivalentArray",
+    "between",
+    "closeTo",
+    "divisibleBy",
+    "even",
+    "greaterThan",
+    "greaterThanOrEqualTo",
+    "lessThan",
+    "lessThanOrEqualTo",
+    "notANumber",
+    "odd",
+    "zero",
+    "bool",
+    "func",
+    "hasFunction",
+    "hasMember",
+    "instanceOf",
+    "number",
+    "object",
+    "string",
+    "typeOf",
+    "containsString",
+    "emailAddress",
+    "endsWith",
+    "equalIgnoringCase",
+    "matches",
+    "startsWith"
   ```
 
 ## Features
