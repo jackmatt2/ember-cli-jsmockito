@@ -93,16 +93,23 @@ assertThat([1,2,3], hasSize(lessThan(5)));
 var modelMock = mock(DS.Model);
 var controllerMock = mock(Ember.Controller);
 ```
-### Mock functions - [docs](http://jsmockito.org/api/1.0.4/symbols/JsMockito.html#.mockFunction)
-```javascript
-var mockedFunc = mockFunction();
-```
+
 ### Setup expectations on your mocks - [docs](http://jsmockito.org/api/1.0.4/symbols/JsMockito.html#.when)
 ```javascript
 var employeeMock = mock(DS.Model);
 when(employeeMock).get('name').thenReturn('jack');
 equal('jack',employeeMock.get('name'));
 ```
+
+### Mock functions - [docs](http://jsmockito.org/api/1.0.4/symbols/JsMockito.html#.mockFunction)
+```javascript
+var mockedFunc = mockFunction();
+```
+
+### Verify function execution - [docs](http://jsmockito.org/api/1.0.4/symbols/JsMockito.html#.verify)
+var employeeMock = mock(DS.Model);
+employeeMock.get('name');
+verify(employeeMock).get("name");
 
 ### Verify function execution - [docs](http://jsmockito.org/api/1.0.4/symbols/JsMockito.html#.verify)
 ```javascript
