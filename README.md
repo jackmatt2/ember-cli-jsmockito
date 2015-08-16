@@ -1,5 +1,7 @@
 # Ember-cli-jsmockito
 
+# WARNING: This project has now been superseded by [ember-aupac-mocks](https://github.com/aupac/ember-aupac-mocks), if using a version of ember-cli > 1.13.x use that library instead.
+
 Javascript Mocking and Matching Library for unit testing ember-cli applications.
 
 ## Requirements 
